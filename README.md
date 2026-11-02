@@ -21,7 +21,6 @@ If I end up having to use names for characters, I will probably use DOTA2 and LO
 | Project phase | Construction and commissioning |
 | My role | Systems Completion / Handover Coordinator |
 | Completion Systems | Mock completion register |
-|---|---|
 
 ---
 
