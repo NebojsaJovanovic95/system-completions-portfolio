@@ -49,3 +49,15 @@ flowchart TD
   501 --> 501_510[501-510 Brine Reclaim]
   501 --> 501_520[501-520 Potable Water]
   501 --> 501_550[501-550 Fire Water]
+
+  600 --> 601[601 Electrical Distribution]
+  601 --> 601_601[601-601 Skipping Electrical Subsystem]
+  601 --> 601_610[601-610 Ore Handling Power Supply]
+  601 --> 601_620[601-620 Crushing and Screening Power Supply]
+  601 --> 601_630[601-630 Processing Power Supply]
+  601 --> 601_640[601-640 Product Handling Power Supply]
+  601 --> 601_650[601-650 Water System Power Supply]
+  601 --> 601_660[601-660 Main Power Distribution]
+  601 --> 601_670[601-670 Instrumentation and Controls Power Subsystem]
+
+  700 --> 701[701 Instrumentation and Control]
