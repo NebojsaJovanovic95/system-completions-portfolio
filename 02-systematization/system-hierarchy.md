@@ -1,0 +1,31 @@
+```mermaid
+flowchart Systemization
+  PLANT[Process Plant] --> 100[100 Raw Ore Handling]
+  PLANT --> 200[200 Crushing and Screening Area]
+  PLANT --> 300[300 Potash Processing Area]
+  PLANT --> 400[400 Product Handling Area]
+  PLANT --> 500[500 Water Distribution Area]
+  PLANT --> 600[600 Power Distribution Area]
+  PLANT --> 700[700 Process Controls Area]
+
+  100 --> 101[101 Raw Ore Handling]
+  101 --> 1O1_101[101-101 Skipping]
+  101 --> 101_110[101-110 Ore Reclaim]
+  101 --> 101_120[101-120 Ore Conveying]
+  101 --> 101_130[101-130 Feed Distribution]
+
+  200 --> 201[201 Primary Crushing]
+  201 --> 201_201[201-201 Primary Crushing Circuit]
+  201 --> 201_202[201-202 Crushed Ore Conveying]
+
+  300 --> 301[301 Deslyming]
+  301 --> 301_301[301-301 Slurrying]
+  301 --> 301_302[301-302 Deslyming]
+  301 --> 301_303[301-303 Clay Disposal]
+  301 --> 301_304[301-304 Drying]
+  301 --> 301_310[301-310 Second Crushing]
+  301 --> 301_311[301-311 Second Slurrying]
+  300 --> 32O[320 Reagent and Chemical]
+  320 --> 320_321[320-321 Desliming Reagent Subsystem]
+  320 --> 320_322[320-322 Flotation Reagent Subsystem]
+  320 --> 320_323[320-323 Cristalization Reagent Subsystem]
