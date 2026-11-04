@@ -25,7 +25,7 @@ flowchart TD
   301 --> 301_304[301-304 Drying]
   301 --> 301_310[301-310 Second Crushing]
   301 --> 301_311[301-311 Second Slurrying]
-  300 --> 32O[320 Reagent and Chemical]
+  300 --> 320[320 Reagent and Chemical]
   320 --> 320_321[320-321 Desliming Reagent Subsystem]
   320 --> 320_322[320-322 Flotation Reagent Subsystem]
   320 --> 320_323[320-323 Cristalization Reagent Subsystem]
