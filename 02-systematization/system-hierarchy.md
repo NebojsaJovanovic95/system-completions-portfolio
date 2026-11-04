@@ -1,5 +1,5 @@
 ```mermaid
-flowchart Systemization
+flowchart TD
   PLANT[Process Plant] --> 100[100 Raw Ore Handling]
   PLANT --> 200[200 Crushing and Screening Area]
   PLANT --> 300[300 Potash Processing Area]
