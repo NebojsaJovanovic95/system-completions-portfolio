@@ -61,3 +61,4 @@ flowchart TD
   601 --> 601_670[601-670 Instrumentation and Controls Power Subsystem]
 
   700 --> 701[701 Instrumentation and Control]
+  701 --> 701_701[701-701 Central Control System]
